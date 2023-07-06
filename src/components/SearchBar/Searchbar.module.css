@@ -1,0 +1,32 @@
+.searchfirst{
+    padding: 5.5em;
+    color: white;
+    background-image: url('./5b667d877265b876259a1633403b0ec9--rick-y-morty-rick-and.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+}
+
+.searchbar{
+    border: solid blueviolet;
+    color: black;
+    background-color: greenyellow;
+    width: 25em;
+}
+
+.botton{
+    color: black;
+    background: blueviolet ;
+    border: 1px solid blueviolet;
+    position: relative;
+    transition: 0.5s;
+    object-fit: cover;
+}
+
+.botton:hover{
+    transform: scale(1.1);
+}
